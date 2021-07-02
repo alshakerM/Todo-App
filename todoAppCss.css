@@ -1,0 +1,74 @@
+
+body {
+    background-image: linear-gradient(120deg, #f6d365, #fda085);
+    color: rgba(255, 255, 255, 0.712);
+    min-height: 100vh;
+}
+h1, h3 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+form input, form button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: white;
+
+
+}
+#submit {
+    color: #d88771;
+    border: none;
+    background: white;
+    cursor: pointer;
+}
+#submit:hover {
+    background-color: #d88771;
+    color: white;
+}
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.oList {
+    min-width: 30%;
+}
+.done{
+    margin: 0.3rem;
+    background: white;
+    color: black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.delete-button {
+    color: green;
+}
+.delete-button:hover {
+    color:red;
+    cursor: pointer;
+}
+.done-button {
+    background-color: darkcyan
+}
+.undo-button {
+    background-color: purple;
+    font-size: 1.1rem;
+}
+.done-button:hover {
+    color:blue;
+    cursor: pointer;
+}
+.undo-button:hover {
+    color:blueviolet;
+    cursor: pointer;
+}

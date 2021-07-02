@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="todoAppCss.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>You Have <span class="count">0</span> Tasks Left</h1>
+    <h3><span class="done-count">0</span> of them are done</h3>
+    <div class="wrapper">
+      <form class="todoForm">
+      
+        <label>
+          <input
+            type="text"
+            class="listField"
+            name="weightField"
+            placeholder="Task"
+            required
+            autocomplete="off"
+          />
+        </label>
+        
+        <label>
+          <button id="submit" type="submit"> <i class="fas fa-plus-square"></i> </button>
+        </label>
+        
+      </form>
+    </div>
+    <div class="todo-container">
+      <ul class="oList"></ul>
+    </div>
+  </body>
+</html>
